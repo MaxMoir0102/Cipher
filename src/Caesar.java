@@ -29,6 +29,7 @@ public class Caesar {
 						letter -= 26;
 					}
 				} else {
+					letter += numShift;
 					if (letter > 'z') {
 						letter -= 26;
 					}
