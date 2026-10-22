@@ -10,7 +10,6 @@ public class Caesar {
 		System.out.println("**CAESAR CIPHER**");
 		System.out.println();
 		System.out.println("Please enter your message:");
-		System.out.println();
 		String message = in.nextLine();
 		String output = "";
 		// Read in shift
