@@ -5,12 +5,12 @@ public class Vigenere {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
        
-        System.out.println("**VIGENERE CYPHER**");
+        System.out.println("**VIGENERE CIPHER**");
         System.out.println();
-        System.out.print("Enter message (uppercase letters only): ");
+        System.out.print("Enter message: ");
         String message = in.nextLine().toUpperCase();
 
-        System.out.print("Enter key (uppercase letters only): ");
+        System.out.print("Enter key: ");
         String key = in.nextLine().toUpperCase();
         String encryptedText = encrypt(message, key);
         System.out.println();
